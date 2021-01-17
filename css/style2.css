@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Trebuchet MS;
+}
+
+body{
+	background-color: #f1f1f1;
+}
+
+.container{
+	width: 97%;
+	min-width: 500px;
+	margin: auto;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	background-color: #1E90ff;
+}
+
+header h1{
+	font-size: 45px;
+	color: #fff;
+}
+
+.logo{
+	float: left;
+	margin-left: 30px; 
+}
+/*Logo End*/
+
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #6495ED;
+}
+
+ul{
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+	font-size: 20px;
+	list-style-type: none;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	color: #000000;
+	text-decoration: none;
+	border: 0px solid transparent;
+	padding: 5px 5px;
+	transition: all 0.1s linear;
+}
+
+ul li a:hover{
+	background-color: whitesmoke;
+}
+/*Navigation End*/
+
+.about_us_banner{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../HealthCare-IT-1024x576.jpg);
+	background-repeat: repeat;
+	height: 144px;
+	padding-top: 110px;
+	padding-bottom: 50px;
+}
+
+.about_us_banner_title{
+	color: #f8f8ff;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 0px;
+}
+
+.about_us_banner_tagline{
+	color: #f8f8ff;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 0px;
+}
+/*About Us Banner End*/
+
+.row{
+	margin: 8px-16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column{
+	float: left;
+	width: 46%;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content{
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-left: 60px;
+  text-align: justify;
+}
+
+p{
+	font-size: 17px;
+}
+/*Member Profile Grid End*/
+.work{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../HealthCare-IT-1024x576.jpg);
+	color: whitesmoke;
+	text-align: center;
+}
+.gantt_chart{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 5px;
+}
+
+h3{
+	font-size: 30px;
+}
+
+.gantt_chart_description{
+	text-align: justify;
+	padding-bottom: 35px;
+	padding-top: 0px;
+}
+/*Gantt Chart End*/
+
+.video_presentation{
+	text-align: center;
+	padding-bottom: 20px;
+}
+/*Video Presentation End*/
+
+footer{
+	width: 100%;
+	min-width: 500px;
+	margin: auto;
+}
+
+.copyright{
+	text-align: center;
+	background-color: #1E90ff;
+	padding-top: 5px;	
+}
+/*Footer End*/
